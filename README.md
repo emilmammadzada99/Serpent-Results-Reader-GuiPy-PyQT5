@@ -29,9 +29,9 @@ Before running the application, make sure you have the following installed:
 ### 🐍 Python Libraries
 
 ```bash
-pip install PyQt5 matplotlib oct2py
+pip install PyQt5 matplotlib oct2py octave
 git clone https://github.com/yourusername/Serpent-Results-Reader-GuiPy.git
-cd Serpent-Results-Reader-GuiPy octave
+cd Serpent-Results-Reader-GuiPy 
 python3 serpentresultgui.py
 ```
 ## Screenshots
