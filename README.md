@@ -34,3 +34,22 @@ git clone https://github.com/yourusername/Serpent-Results-Reader-GuiPy.git
 cd Serpent-Results-Reader-GuiPy octave
 python3 serpentresultgui.py
 ```
+## Screenshots
+
+Here is the main window of the application:
+
+![Main Window](Capture.PNG)
+![Main Window2](Capture-1.PNG)
+![Main Window3](Capture-2.PNG)
+![Main Window4](Capture-3.PNG)
+![Main Window5](Capture-4.PNG)
+
+## Credits & References
+
+This project uses and is inspired by the following resources:
+
+- [Serpent Monte Carlo Reactor Physics Code](https://serpent.vtt.fi/)
+- [GNU Octave - High-level programming language for numerical computations](https://octave.org/)
+- [Python Programming Language](https://www.python.org/)
+- [Real Python: Qt Designer and Python Integration Tutorial](https://realpython.com/qt-designer-python/)
+
