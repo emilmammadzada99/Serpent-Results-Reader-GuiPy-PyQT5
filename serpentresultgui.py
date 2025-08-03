@@ -210,8 +210,8 @@ class Page3(QtWidgets.QMainWindow):
         if not self.run_octave_script():
             return
         try:
-            x = oc.pull("DET1E")[:, 2]   # Octave 1-based index, Python 0-based, 3.sütun = 2.indeks
-            y = oc.pull("DET1")[:, 10]   # 11.sütun = 10.indeks
+            x = oc.pull("DET1E")[:, 2]   # 
+            y = oc.pull("DET1")[:, 10]   # 
             self.canvas.plot_flux(x, y, "Neutron flux per lethargy")
         except Exception as e:
             QtWidgets.QMessageBox.critical(self, "Error", f"Error plotting graph 1:\n{e}")
@@ -357,3 +357,4 @@ if __name__ == "__main__":
     window = MainWindow()
     window.show()
     sys.exit(app.exec_())
+
