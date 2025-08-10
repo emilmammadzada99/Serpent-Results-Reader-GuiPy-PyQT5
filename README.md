@@ -30,7 +30,7 @@ Before running the application, make sure you have the following installed:
 
 ```bash
 pip install PyQt5 matplotlib oct2py octave
-git clone https://github.com/yourusername/Serpent-Results-Reader-GuiPy.git
+git clone https://github.com/emilmammadzada99/Serpent-Results-Reader-GuiPy-PyQT5.git
 cd Serpent-Results-Reader-GuiPy 
 python3 serpentresultgui.py
 ```
